@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Jolly+Lodger" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styleform.css">
+  </head>
+  <body>
+    <div id="hogwarts-background">
+        <div id="form-wrapper">
+            <form>
+                <label for="wizard-name">Your Name: </label>
+                <input type="text" id="wizard-name" name="wizard-name">
+                <br>
+                <br>
+                Is any of the parent muggle?
+                <br>
+                <input type="radio" id="yes-muggle" name="muggle-parent" value="yes">
+                <label for="yes-muggle">Yes</label>
+                <input type="radio" id="no-muggle" name="muggle-parent" value="no">
+                <label for="no-muggle">No</label>      
+                <br>          
+                <br>
+                Which element do you naturally relate to the most?
+                <br>
+                <input type="checkbox" id="air" name="air" value="air">
+                <label for="air">Air</label>
+                <input type="checkbox" id="water" name="water" value="water">
+                <label for="water">Water</label>
+                <input type="checkbox" id="fire" name="fire" value="fire">
+                <label for="fire">Fire</label>
+                <br>
+                <br>
+                Which is your favorite house at Hogwarts?
+                <br>
+                <select name="fav-house">
+                    <option value="Gryffindor">Gryffindor</option>
+                    <option value="Slytherin">Slytherin</option>
+                    <option value="Ravenclaw">Ravenclaw</option>
+                    <option value="Hufflepuff">Hufflepuff</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
